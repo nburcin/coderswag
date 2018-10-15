@@ -23,19 +23,22 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="5g9-Ka-isb">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="5g9-Ka-isb">
                                 <rect key="frame" x="0.0" y="65" width="375" height="538"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="arf-BI-mLI" customClass="CategoryCell" customModule="Coder_Swag" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CategoryCell" rowHeight="145" id="arf-BI-mLI" customClass="CategoryCell" customModule="Coder_Swag" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="145"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="arf-BI-mLI" id="iGI-e8-TSk">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="144.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="145"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="digital" translatesAutoresizingMaskIntoConstraints="NO" id="J4M-uj-xtU">
-                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="144.5"/>
+                                                    <rect key="frame" x="0.0" y="3" width="375" height="138.5"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" relation="lessThanOrEqual" constant="175" id="nSy-68-QA7"/>
+                                                    </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOODIES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wbD-PR-qng">
                                                     <rect key="frame" x="141" y="58.5" width="93" height="28"/>
@@ -49,8 +52,8 @@
                                                 <constraint firstItem="J4M-uj-xtU" firstAttribute="leading" secondItem="iGI-e8-TSk" secondAttribute="leading" id="bcZ-p5-evD"/>
                                                 <constraint firstItem="wbD-PR-qng" firstAttribute="centerY" secondItem="iGI-e8-TSk" secondAttribute="centerY" id="k3l-6e-EXU"/>
                                                 <constraint firstItem="wbD-PR-qng" firstAttribute="centerX" secondItem="iGI-e8-TSk" secondAttribute="centerX" id="kdO-gI-Nxe"/>
-                                                <constraint firstItem="J4M-uj-xtU" firstAttribute="top" secondItem="iGI-e8-TSk" secondAttribute="top" id="sMQ-r9-TTr"/>
-                                                <constraint firstAttribute="bottom" secondItem="J4M-uj-xtU" secondAttribute="bottom" id="wtJ-cq-3ym"/>
+                                                <constraint firstItem="J4M-uj-xtU" firstAttribute="top" secondItem="iGI-e8-TSk" secondAttribute="top" constant="3" id="sMQ-r9-TTr"/>
+                                                <constraint firstAttribute="bottom" secondItem="J4M-uj-xtU" secondAttribute="bottom" constant="3" id="wtJ-cq-3ym"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
@@ -69,6 +72,7 @@
                             <constraint firstItem="8jn-rk-hZu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Noh-k7-yLY"/>
                             <constraint firstItem="5g9-Ka-isb" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="XmR-is-IpJ"/>
                             <constraint firstItem="5g9-Ka-isb" firstAttribute="top" secondItem="8jn-rk-hZu" secondAttribute="bottom" constant="16" id="rtj-N9-nyX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8jn-rk-hZu" secondAttribute="trailing" constant="194" id="sRO-kK-G7n"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

@@ -13,6 +13,8 @@
 		01E022482174023600B0C903 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01E022472174023600B0C903 /* Assets.xcassets */; };
 		01E0224B2174023600B0C903 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01E022492174023600B0C903 /* LaunchScreen.storyboard */; };
 		01E0225621740A1600B0C903 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E0225521740A1600B0C903 /* CategoryCell.swift */; };
+		01E022582174BD2000B0C903 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E022572174BD2000B0C903 /* Category.swift */; };
+		01E0225B2174C0BD00B0C903 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E0225A2174C0BD00B0C903 /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		01E0224A2174023600B0C903 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01E0224C2174023600B0C903 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01E0225521740A1600B0C903 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		01E022572174BD2000B0C903 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		01E0225A2174C0BD00B0C903 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		01E0223F2174023500B0C903 /* Coder-Swag */ = {
 			isa = PBXGroup;
 			children = (
+				01E022592174C09700B0C903 /* Services */,
 				01E022522174091A00B0C903 /* Model */,
 				01E022542174093000B0C903 /* View */,
 				01E022532174092300B0C903 /* Controller */,
@@ -71,6 +76,7 @@
 		01E022522174091A00B0C903 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				01E022572174BD2000B0C903 /* Category.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -89,6 +95,14 @@
 				01E0225521740A1600B0C903 /* CategoryCell.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		01E022592174C09700B0C903 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				01E0225A2174C0BD00B0C903 /* DataService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +179,8 @@
 				01E022432174023500B0C903 /* CategoriesVC.swift in Sources */,
 				01E022412174023500B0C903 /* AppDelegate.swift in Sources */,
 				01E0225621740A1600B0C903 /* CategoryCell.swift in Sources */,
+				01E022582174BD2000B0C903 /* Category.swift in Sources */,
+				01E0225B2174C0BD00B0C903 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
