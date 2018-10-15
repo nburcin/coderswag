@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0125E6FF2174DA2400095397 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0125E6FE2174DA2400095397 /* Product.swift */; };
+		01AD3A832174E3F2004053E9 /* ProductsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AD3A822174E3F2004053E9 /* ProductsVC.swift */; };
 		01E022412174023500B0C903 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E022402174023500B0C903 /* AppDelegate.swift */; };
 		01E022432174023500B0C903 /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E022422174023500B0C903 /* CategoriesVC.swift */; };
 		01E022462174023500B0C903 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01E022442174023500B0C903 /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		0125E6FE2174DA2400095397 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		01AD3A822174E3F2004053E9 /* ProductsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsVC.swift; sourceTree = "<group>"; };
 		01E0223D2174023500B0C903 /* Coder-Swag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coder-Swag.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01E022402174023500B0C903 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01E022422174023500B0C903 /* CategoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesVC.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				01E022422174023500B0C903 /* CategoriesVC.swift */,
+				01AD3A822174E3F2004053E9 /* ProductsVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01AD3A832174E3F2004053E9 /* ProductsVC.swift in Sources */,
 				01E022432174023500B0C903 /* CategoriesVC.swift in Sources */,
 				01E022412174023500B0C903 /* AppDelegate.swift in Sources */,
 				01E0225621740A1600B0C903 /* CategoryCell.swift in Sources */,
