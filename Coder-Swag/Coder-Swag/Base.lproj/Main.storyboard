@@ -150,6 +150,7 @@
                                             <constraint firstItem="y1W-cg-cPm" firstAttribute="leading" secondItem="IOx-xH-OPg" secondAttribute="leading" id="gaU-hU-7h0"/>
                                         </constraints>
                                         <connections>
+                                            <outlet property="productImage" destination="y1W-cg-cPm" id="DCH-1K-pfa"/>
                                             <outlet property="productPrice" destination="cKG-Nd-8yp" id="eqQ-Nc-Xan"/>
                                             <outlet property="productTitle" destination="beh-3O-jxP" id="XRs-Ne-OyT"/>
                                         </connections>
